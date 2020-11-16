@@ -11,6 +11,7 @@ public class practice_1 {
 		Scanner sc = new Scanner(System.in);
 		int A = sc.nextInt();
 		int B = sc.nextInt();
+		sc.close();
 		
 		if(A>B) {
 			System.out.println(">");
